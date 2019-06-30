@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A937415044AE5A057444859 /* Pods_MLYOLOsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EDA486EBB5D3BCA580CACF /* Pods_MLYOLOsTests.framework */; };
+		50033F1CE903282820121222 /* Pods_MLYOLOsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1045F9FA40314E436AB36FA /* Pods_MLYOLOsUITests.framework */; };
+		69291C5D22C88BD300D1A2E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69291C5C22C88BD300D1A2E7 /* AppDelegate.swift */; };
+		69291C5F22C88BD300D1A2E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69291C5E22C88BD300D1A2E7 /* ViewController.swift */; };
+		69291C6222C88BD300D1A2E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69291C6022C88BD300D1A2E7 /* Main.storyboard */; };
+		69291C6422C88BD300D1A2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69291C6322C88BD300D1A2E7 /* Assets.xcassets */; };
+		69291C6722C88BD300D1A2E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69291C6522C88BD300D1A2E7 /* LaunchScreen.storyboard */; };
+		69291C7222C88BD300D1A2E7 /* MLYOLOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69291C7122C88BD300D1A2E7 /* MLYOLOsTests.swift */; };
+		69291C7D22C88BD300D1A2E7 /* MLYOLOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69291C7C22C88BD300D1A2E7 /* MLYOLOsUITests.swift */; };
+		E8E6A73190425BFA16576F21 /* Pods_MLYOLOs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1037B04E1465593B1AE259CD /* Pods_MLYOLOs.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69291C6E22C88BD300D1A2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69291C5122C88BD300D1A2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69291C5822C88BD300D1A2E7;
+			remoteInfo = MLYOLOs;
+		};
+		69291C7922C88BD300D1A2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69291C5122C88BD300D1A2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69291C5822C88BD300D1A2E7;
+			remoteInfo = MLYOLOs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1037B04E1465593B1AE259CD /* Pods_MLYOLOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLYOLOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB93B7B4AE312F3612B6140 /* Pods-MLYOLOsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLYOLOsTests.release.xcconfig"; path = "Target Support Files/Pods-MLYOLOsTests/Pods-MLYOLOsTests.release.xcconfig"; sourceTree = "<group>"; };
+		691A3C34BEC172AF4245F0DB /* Pods-MLYOLOs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLYOLOs.release.xcconfig"; path = "Target Support Files/Pods-MLYOLOs/Pods-MLYOLOs.release.xcconfig"; sourceTree = "<group>"; };
+		69291C5922C88BD300D1A2E7 /* MLYOLOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLYOLOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69291C5C22C88BD300D1A2E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69291C5E22C88BD300D1A2E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69291C6122C88BD300D1A2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69291C6322C88BD300D1A2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69291C6622C88BD300D1A2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69291C6822C88BD300D1A2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69291C6D22C88BD300D1A2E7 /* MLYOLOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLYOLOsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69291C7122C88BD300D1A2E7 /* MLYOLOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLYOLOsTests.swift; sourceTree = "<group>"; };
+		69291C7322C88BD300D1A2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69291C7822C88BD300D1A2E7 /* MLYOLOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLYOLOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69291C7C22C88BD300D1A2E7 /* MLYOLOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLYOLOsUITests.swift; sourceTree = "<group>"; };
+		69291C7E22C88BD300D1A2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EDA486EBB5D3BCA580CACF /* Pods_MLYOLOsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLYOLOsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4E3E53A86509340337909B /* Pods-MLYOLOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLYOLOs.debug.xcconfig"; path = "Target Support Files/Pods-MLYOLOs/Pods-MLYOLOs.debug.xcconfig"; sourceTree = "<group>"; };
+		9B610E8C532BC793F39DE90B /* Pods-MLYOLOsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLYOLOsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MLYOLOsUITests/Pods-MLYOLOsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1045F9FA40314E436AB36FA /* Pods_MLYOLOsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLYOLOsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3582E66E2B585C143DAEA5A /* Pods-MLYOLOsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLYOLOsTests.debug.xcconfig"; path = "Target Support Files/Pods-MLYOLOsTests/Pods-MLYOLOsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFEED4481ED43682D07B3DAA /* Pods-MLYOLOsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLYOLOsUITests.release.xcconfig"; path = "Target Support Files/Pods-MLYOLOsUITests/Pods-MLYOLOsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69291C5622C88BD300D1A2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6A73190425BFA16576F21 /* Pods_MLYOLOs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69291C6A22C88BD300D1A2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A937415044AE5A057444859 /* Pods_MLYOLOsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69291C7522C88BD300D1A2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50033F1CE903282820121222 /* Pods_MLYOLOsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488C188CD2B4143229D3E34C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E3E53A86509340337909B /* Pods-MLYOLOs.debug.xcconfig */,
+				691A3C34BEC172AF4245F0DB /* Pods-MLYOLOs.release.xcconfig */,
+				E3582E66E2B585C143DAEA5A /* Pods-MLYOLOsTests.debug.xcconfig */,
+				4EB93B7B4AE312F3612B6140 /* Pods-MLYOLOsTests.release.xcconfig */,
+				9B610E8C532BC793F39DE90B /* Pods-MLYOLOsUITests.debug.xcconfig */,
+				EFEED4481ED43682D07B3DAA /* Pods-MLYOLOsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69291C5022C88BD300D1A2E7 = {
+			isa = PBXGroup;
+			children = (
+				69291C5B22C88BD300D1A2E7 /* MLYOLOs */,
+				69291C7022C88BD300D1A2E7 /* MLYOLOsTests */,
+				69291C7B22C88BD300D1A2E7 /* MLYOLOsUITests */,
+				69291C5A22C88BD300D1A2E7 /* Products */,
+				488C188CD2B4143229D3E34C /* Pods */,
+				F1237B2221C278CB65482682 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69291C5A22C88BD300D1A2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69291C5922C88BD300D1A2E7 /* MLYOLOs.app */,
+				69291C6D22C88BD300D1A2E7 /* MLYOLOsTests.xctest */,
+				69291C7822C88BD300D1A2E7 /* MLYOLOsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69291C5B22C88BD300D1A2E7 /* MLYOLOs */ = {
+			isa = PBXGroup;
+			children = (
+				69291C5C22C88BD300D1A2E7 /* AppDelegate.swift */,
+				69291C5E22C88BD300D1A2E7 /* ViewController.swift */,
+				69291C6022C88BD300D1A2E7 /* Main.storyboard */,
+				69291C6322C88BD300D1A2E7 /* Assets.xcassets */,
+				69291C6522C88BD300D1A2E7 /* LaunchScreen.storyboard */,
+				69291C6822C88BD300D1A2E7 /* Info.plist */,
+			);
+			path = MLYOLOs;
+			sourceTree = "<group>";
+		};
+		69291C7022C88BD300D1A2E7 /* MLYOLOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				69291C7122C88BD300D1A2E7 /* MLYOLOsTests.swift */,
+				69291C7322C88BD300D1A2E7 /* Info.plist */,
+			);
+			path = MLYOLOsTests;
+			sourceTree = "<group>";
+		};
+		69291C7B22C88BD300D1A2E7 /* MLYOLOsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69291C7C22C88BD300D1A2E7 /* MLYOLOsUITests.swift */,
+				69291C7E22C88BD300D1A2E7 /* Info.plist */,
+			);
+			path = MLYOLOsUITests;
+			sourceTree = "<group>";
+		};
+		F1237B2221C278CB65482682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1037B04E1465593B1AE259CD /* Pods_MLYOLOs.framework */,
+				70EDA486EBB5D3BCA580CACF /* Pods_MLYOLOsTests.framework */,
+				E1045F9FA40314E436AB36FA /* Pods_MLYOLOsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69291C5822C88BD300D1A2E7 /* MLYOLOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69291C8122C88BD300D1A2E7 /* Build configuration list for PBXNativeTarget "MLYOLOs" */;
+			buildPhases = (
+				16B1F03C7D263D242AA5013F /* [CP] Check Pods Manifest.lock */,
+				69291C5522C88BD300D1A2E7 /* Sources */,
+				69291C5622C88BD300D1A2E7 /* Frameworks */,
+				69291C5722C88BD300D1A2E7 /* Resources */,
+				BCFE5AFEAA5DBAC4FA6958A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLYOLOs;
+			productName = MLYOLOs;
+			productReference = 69291C5922C88BD300D1A2E7 /* MLYOLOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69291C6C22C88BD300D1A2E7 /* MLYOLOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69291C8422C88BD300D1A2E7 /* Build configuration list for PBXNativeTarget "MLYOLOsTests" */;
+			buildPhases = (
+				C5F0E4A76EE64DC4A6468296 /* [CP] Check Pods Manifest.lock */,
+				69291C6922C88BD300D1A2E7 /* Sources */,
+				69291C6A22C88BD300D1A2E7 /* Frameworks */,
+				69291C6B22C88BD300D1A2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69291C6F22C88BD300D1A2E7 /* PBXTargetDependency */,
+			);
+			name = MLYOLOsTests;
+			productName = MLYOLOsTests;
+			productReference = 69291C6D22C88BD300D1A2E7 /* MLYOLOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69291C7722C88BD300D1A2E7 /* MLYOLOsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69291C8722C88BD300D1A2E7 /* Build configuration list for PBXNativeTarget "MLYOLOsUITests" */;
+			buildPhases = (
+				582EEFF7A726D104475EFCE6 /* [CP] Check Pods Manifest.lock */,
+				69291C7422C88BD300D1A2E7 /* Sources */,
+				69291C7522C88BD300D1A2E7 /* Frameworks */,
+				69291C7622C88BD300D1A2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69291C7A22C88BD300D1A2E7 /* PBXTargetDependency */,
+			);
+			name = MLYOLOsUITests;
+			productName = MLYOLOsUITests;
+			productReference = 69291C7822C88BD300D1A2E7 /* MLYOLOsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69291C5122C88BD300D1A2E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "菊池達也";
+				TargetAttributes = {
+					69291C5822C88BD300D1A2E7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					69291C6C22C88BD300D1A2E7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 69291C5822C88BD300D1A2E7;
+					};
+					69291C7722C88BD300D1A2E7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 69291C5822C88BD300D1A2E7;
+					};
+				};
+			};
+			buildConfigurationList = 69291C5422C88BD300D1A2E7 /* Build configuration list for PBXProject "MLYOLOs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69291C5022C88BD300D1A2E7;
+			productRefGroup = 69291C5A22C88BD300D1A2E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69291C5822C88BD300D1A2E7 /* MLYOLOs */,
+				69291C6C22C88BD300D1A2E7 /* MLYOLOsTests */,
+				69291C7722C88BD300D1A2E7 /* MLYOLOsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69291C5722C88BD300D1A2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69291C6722C88BD300D1A2E7 /* LaunchScreen.storyboard in Resources */,
+				69291C6422C88BD300D1A2E7 /* Assets.xcassets in Resources */,
+				69291C6222C88BD300D1A2E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69291C6B22C88BD300D1A2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69291C7622C88BD300D1A2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16B1F03C7D263D242AA5013F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLYOLOs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		582EEFF7A726D104475EFCE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLYOLOsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFE5AFEAA5DBAC4FA6958A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLYOLOs/Pods-MLYOLOs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLYOLOs/Pods-MLYOLOs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F0E4A76EE64DC4A6468296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLYOLOsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69291C5522C88BD300D1A2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69291C5F22C88BD300D1A2E7 /* ViewController.swift in Sources */,
+				69291C5D22C88BD300D1A2E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69291C6922C88BD300D1A2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69291C7222C88BD300D1A2E7 /* MLYOLOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69291C7422C88BD300D1A2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69291C7D22C88BD300D1A2E7 /* MLYOLOsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69291C6F22C88BD300D1A2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69291C5822C88BD300D1A2E7 /* MLYOLOs */;
+			targetProxy = 69291C6E22C88BD300D1A2E7 /* PBXContainerItemProxy */;
+		};
+		69291C7A22C88BD300D1A2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69291C5822C88BD300D1A2E7 /* MLYOLOs */;
+			targetProxy = 69291C7922C88BD300D1A2E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69291C6022C88BD300D1A2E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69291C6122C88BD300D1A2E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69291C6522C88BD300D1A2E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69291C6622C88BD300D1A2E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69291C7F22C88BD300D1A2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69291C8022C88BD300D1A2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69291C8222C88BD300D1A2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4E3E53A86509340337909B /* Pods-MLYOLOs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFE85Q6C8Z;
+				INFOPLIST_FILE = MLYOLOs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tk.products.MLYOLOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69291C8322C88BD300D1A2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691A3C34BEC172AF4245F0DB /* Pods-MLYOLOs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFE85Q6C8Z;
+				INFOPLIST_FILE = MLYOLOs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tk.products.MLYOLOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69291C8522C88BD300D1A2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3582E66E2B585C143DAEA5A /* Pods-MLYOLOsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MLYOLOsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tk.products.MLYOLOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLYOLOs.app/MLYOLOs";
+			};
+			name = Debug;
+		};
+		69291C8622C88BD300D1A2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB93B7B4AE312F3612B6140 /* Pods-MLYOLOsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MLYOLOsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tk.products.MLYOLOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLYOLOs.app/MLYOLOs";
+			};
+			name = Release;
+		};
+		69291C8822C88BD300D1A2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B610E8C532BC793F39DE90B /* Pods-MLYOLOsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MLYOLOsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tk.products.MLYOLOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLYOLOs;
+			};
+			name = Debug;
+		};
+		69291C8922C88BD300D1A2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEED4481ED43682D07B3DAA /* Pods-MLYOLOsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MLYOLOsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tk.products.MLYOLOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLYOLOs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69291C5422C88BD300D1A2E7 /* Build configuration list for PBXProject "MLYOLOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69291C7F22C88BD300D1A2E7 /* Debug */,
+				69291C8022C88BD300D1A2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69291C8122C88BD300D1A2E7 /* Build configuration list for PBXNativeTarget "MLYOLOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69291C8222C88BD300D1A2E7 /* Debug */,
+				69291C8322C88BD300D1A2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69291C8422C88BD300D1A2E7 /* Build configuration list for PBXNativeTarget "MLYOLOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69291C8522C88BD300D1A2E7 /* Debug */,
+				69291C8622C88BD300D1A2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69291C8722C88BD300D1A2E7 /* Build configuration list for PBXNativeTarget "MLYOLOsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69291C8822C88BD300D1A2E7 /* Debug */,
+				69291C8922C88BD300D1A2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69291C5122C88BD300D1A2E7 /* Project object */;
+}

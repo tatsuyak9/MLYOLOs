@@ -5,7 +5,7 @@
 * Object Detctions.
 
 ## Requirements
-* iOS 10.0+
+* iOS 12.0+
 * Xcode : 10.2.0+
 
 ## blog

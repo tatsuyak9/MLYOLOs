@@ -129,11 +129,12 @@ final class RenderViewController: UIViewController {
         self.presenter.requestSignal.emit(onNext: { [weak self] request in
             guard let `self` = self else { return }
             
-            if let results = request.results {
-                self.drawView.setShaderData(image: self.image, skView: self.skView)
-                
-                self.drawView.objects = results as? [VNRecognizedObjectObservation]
-                self.drawView.setNeedsDisplay()
+            DispatchQueue.main.async {
+                if let results = request.results {
+                    self.drawView.setShaderData(image: self.image, skView: self.skView)
+                    self.drawView.objects = results as? [VNRecognizedObjectObservation]
+                    self.drawView.setNeedsDisplay()
+                }
             }
         }).disposed(by: self.disposeBag)
     }
@@ -158,16 +159,27 @@ final class RenderViewController: UIViewController {
         let ciImage = CIImage(cvImageBuffer: pixelBuffer)
         var image = UIImage(ciImage: ciImage)
 
-        DispatchQueue.main.async {
+        
+        if CateogoryRepository.shared.type == .Pixels {
             let size = self.drawView.frame.size
             
             UIGraphicsBeginImageContext(size)
             image.draw(in: CGRect(x: 0, y: 0, width: size.width, height: size.height))
             image = UIGraphicsGetImageFromCurrentImageContext()!
             UIGraphicsEndImageContext()
+            self.image = image
+
+        }else{
+            DispatchQueue.main.async {
+                let size = self.drawView.frame.size
+                
+                UIGraphicsBeginImageContext(size)
+                image.draw(in: CGRect(x: 0, y: 0, width: size.width, height: size.height))
+                image = UIGraphicsGetImageFromCurrentImageContext()!
+                UIGraphicsEndImageContext()
+                self.image = image
+            }
         }
-        
-        self.image = image
         
         if CateogoryRepository.shared.type == .Pixels {
             DispatchQueue.main.async {
